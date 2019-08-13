@@ -13,7 +13,7 @@ Environment.create(name: "River", location: "Hudson Valley, NY", thumbnail: "hud
 Environment.create(name: "Space", location: "Milky Way Galaxy", thumbnail: "space.jpg", audio: "rumble.mp3", asset_path: "space-360.jpg")
 Environment.create(name: "Campfire", location: "Black Forest, Germany", thumbnail: "aurora.jpg", audio: "woods.mp3", asset_path: "forest-360.jpg")
 Environment.create(name: "Train", location: "Scottish Highlands, UK", thumbnail: "train.jpg", audio: "train.mp3", asset_path: "train-360.jpg")
-Environment.create(name: "Beach", location: "Cozmul, Mexico", thumbnail: "beach.jpg", audio: "beach.mp3", asset_path: "beach-360.jpg")
+Environment.create(name: "Beach", location: "Cozmul, Mexico", thumbnail: "beach.jpg", audio: "beach.wav", asset_path: "beach-360.jpg")
 Environment.create(name: "Mountain", location: "Smokey Mountains, TN", thumbnail: "mountains.jpg", audio: "mountain.mp3", asset_path: "mountain-360.jpg")
 # Music Seed
 Music.create(title: "Ligma", artist: "Sigur Ros", music_asset: "song.mp3")
