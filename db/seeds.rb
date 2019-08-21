@@ -17,3 +17,11 @@ Environment.create(name: "Beach", location: "Cozmul, Mexico", thumbnail: "beach.
 Environment.create(name: "Mountain", location: "Smokey Mountains, TN", thumbnail: "mountains.jpg", audio: "mountain.mp3", asset_path: "mountain-360.jpg")
 # Music Seed
 Music.create(title: "Ligma", artist: "Sigur Ros", music_asset: "song.mp3")
+# Movie Seed
+Movie.create(name: "Lion King", path: "lionking.mov", artwork: "")
+Movie.create(name: "The Secret Life of Pets", path: "secretlives.mov", artwork: "")
+Movie.create(name: "Star Wars: Rise of the Skywalker", path: "starwars.mov", artwork: "")
+Movie.create(name: "Ready Player One", path: "readyplayerone.mov", artwork: "")
+Movie.create(name: "The Hobbit", path: "hobbit.mov", artwork: "")
+Movie.create(name: "Scary Stories to tell in the Dark", path: "scarystories.mov", artwork: "")
+Movie.create(name: "Harry Potter & Deathly Hollows", path: "harrypotter.mov", artwork: "")

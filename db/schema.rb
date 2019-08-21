@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_07_201551) do
+ActiveRecord::Schema.define(version: 2019_08_19_174308) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,14 @@ ActiveRecord::Schema.define(version: 2019_08_07_201551) do
     t.string "thumbnail"
     t.string "audio"
     t.string "asset_path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "movies", force: :cascade do |t|
+    t.string "name"
+    t.string "path"
+    t.string "artwork"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
